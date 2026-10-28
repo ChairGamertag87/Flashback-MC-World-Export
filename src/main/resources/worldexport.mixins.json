@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.scaffoldeditor.worldexport.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "ClientWorldMixin",
+    "AnimalModelAccessor",
+    "ModelPartAccessor",
+    "QuadrupedModelAccessor",
+    "ElytraModelAccessor",
+    "SpriteAccessor",
+    "SpriteMixin",
+    "flashback.ExportJobMixin",
+    "flashback.MainMenuBarMixin",
+    "flashback.ReplayUIMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

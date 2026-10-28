@@ -1,0 +1,46 @@
+# ---- Gradle / build outputs ----
+.gradle/
+build/
+out/
+classes/
+bin/
+remappedSrc/
+
+# ---- Fabric / Minecraft runtime ----
+run/
+logs/
+*.log
+
+# ---- IDEs ----
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.project
+.classpath
+*.launch
+.factorypath
+
+# Eclipse
+.eclipse/
+eclipse/
+
+# ---- OS junk ----
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Misc local files ----
+logo/
+*.bak
+*.tmp
+*.orig
+
+# ---- Idea local files ----
+.idea/
+*.iml
+*.ipr
+*.iws
+

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "worldexport",
+  "version": "${version}",
+  "name": "Igrium's Replay Exporter (Flashback)",
+  "description": "An addon to Flashback that allows it to export replays into Blender and other 3D software.",
+  "authors": [
+    "Igrium"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Sam54123/mc-world-export",
+    "sources": "https://github.com/Sam54123/mc-world-export"
+  },
+  "license": "GPL-3.0-or-later",
+  "icon": "assets/worldexport/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [],
+    "client": [
+      "org.scaffoldeditor.worldexport.ReplayExportMod"
+    ]
+  },
+  "mixins": [
+    "worldexport.mixins.json",
+    "debugger.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "fabric": "*",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "flashback": ">=0.39.10"
+  },
+  "breaks": {
+    "sodium": "*",
+    "dashloader": "*"
+  },
+  "suggests": {}
+}
